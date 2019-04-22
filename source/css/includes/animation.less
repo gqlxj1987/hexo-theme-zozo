@@ -1,0 +1,29 @@
+/* Animation Start */
+.fadeInDown {
+    animation-name: myFadeInDown!important;
+    animation-duration: 1s!important;
+}
+@-webkit-keyframes myFadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-3px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+  
+@keyframes myFadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-3px);
+                transform: translateY(-3px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+/* Animation End */

@@ -1,0 +1,16 @@
+{
+    "name": "hexo-theme-zozo",
+    "version": "1.0.0",
+    "dependencies": {
+      "hexo": "^3.2.0",
+      "hexo-generator-archive": "^0.1.4",
+      "hexo-generator-category": "^0.1.3",
+      "hexo-generator-feed": "^1.2.2",
+      "hexo-generator-index": "^0.2.0",
+      "hexo-generator-tag": "^0.2.0",
+      "hexo-renderer-less": "^1.0.0",
+      "hexo-renderer-swig": "^1.1.0",
+      "hexo-wordcount": "^6.0.1"
+    }
+  }
+  
