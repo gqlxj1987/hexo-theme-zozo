@@ -10,8 +10,11 @@ menu:
 # Profile
 profile:
   avatar: /images/avatar.png
-  subtitle: 经验是智慧之母。
-  slogan: Talk is cheap, show me the code!
+  subtitle: Life is fantastic!
+  slogan: 经验是智慧之母。
+
+# Daily Poetry, replace to profile.subtitle (Thanks to https://www.jinrishici.com/)
+daily_poetry: true
 
 # Basic
 basic: 

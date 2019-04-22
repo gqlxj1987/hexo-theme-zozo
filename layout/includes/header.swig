@@ -20,7 +20,9 @@
         {% endif %}
     </div>
     <div class="description">
-        {% if theme.profile.subtitle %}
+        {% if theme.daily_poetry %}
+            <p id="jinrishici-sentence" class="sub-title"></p>
+        {% elseif theme.profile.subtitle %}
             <p class="sub-title">{{ theme.profile.subtitle }}</p>
         {% endif %}
         <div class="socials">
