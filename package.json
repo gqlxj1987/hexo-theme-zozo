@@ -9,6 +9,7 @@
       "hexo-generator-index": "^0.2.0",
       "hexo-generator-tag": "^0.2.0",
       "hexo-renderer-less": "^1.0.0",
+      "hexo-renderer-scss": "1.2.0",
       "hexo-renderer-swig": "^1.1.0",
       "hexo-wordcount": "^6.0.1"
     }
