@@ -39,15 +39,15 @@
         visitor: true
     })
 </script>
-{% elseif theme.comment.type == 'gittalk' %}
+{% elseif theme.comment.type == 'gitalk' %}
 <div id="gitalk-container"></div>
 <script>
 new Gitalk({
-  clientID: '{{ theme.comment.gittalk.clientid }}',
-  clientSecret: '{{ theme.comment.gittalk.clientsecret }}',
-  repo: '{{ theme.comment.gittalk.repo }}',
-  owner: '{{ theme.comment.gittalk.owner }}',
-  admin: '{{ theme.comment.gittalk.admin }}',
+  clientID: '{{ theme.comment.gitalk.clientid }}',
+  clientSecret: '{{ theme.comment.gitalk.clientsecret }}',
+  repo: '{{ theme.comment.gitalk.repo }}',
+  owner: '{{ theme.comment.gitalk.owner }}',
+  admin: '{{ theme.comment.gitalk.admin }}',
   id: location.pathname,
   distractionFreeMode: false
 }).render('gitalk-container')
