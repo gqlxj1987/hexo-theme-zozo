@@ -1,0 +1,97 @@
+.post-content figure.highlight {
+    margin: 2em 0;
+    background: #f7f7f7;
+    color: #4d4d4c;
+    font-size: 12px;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.post-content figure.highlight .gutter {
+    color: #333;
+}
+.post-content figure.highlight pre {
+    background: #f7f7f7;
+    margin: 0;
+}
+.post-content code {
+    padding: 2px 4px;
+    background: #f7f7f7;
+    font-family: Menlo, Monaco, Consolas, Courier New, monospace;
+    font-size: 12px;
+}
+.post-content pre {
+    padding: 10px;
+    overflow: auto;
+    background: #f7f7f7;
+    font-family: Menlo, Monaco, Consolas, Courier New, monospace;
+}
+.post-content pre code {
+    padding: 0;
+}
+.post-content pre .deletion {
+    background: #fdd;
+}
+.post-content pre .addition {
+    background: #dfd;
+}
+.post-content pre .meta {
+    color: #8959a8;
+}
+.post-content pre .comment {
+    color: #8e908c;
+}
+.post-content pre .variable,
+.post-content pre .attribute,
+.post-content pre .tag,
+.post-content pre .regexp,
+.post-content pre .ruby .constant,
+.post-content pre .xml .tag .title,
+.post-content pre .xml .pi,
+.post-content pre .xml .doctype,
+.post-content pre .html .doctype,
+.post-content pre .css .id,
+.post-content pre .css .class,
+.post-content pre .css .pseudo {
+    color: #c82829;
+}
+.post-content pre .number,
+.post-content pre .preprocessor,
+.post-content pre .built_in,
+.post-content pre .literal,
+.post-content pre .params,
+.post-content pre .constant,
+.post-content pre .command {
+    color: #f5871f;
+}
+.post-content pre .ruby .class .title,
+.post-content pre .css .rules .attribute,
+.post-content pre .string,
+.post-content pre .value,
+.post-content pre .inheritance,
+.post-content pre .header,
+.post-content pre .ruby .symbol,
+.post-content pre .xml .cdata,
+.post-content pre .special,
+.post-content pre .number,
+.post-content pre .formula {
+    color: #718c00;
+}
+.post-content pre .title,
+.post-content pre .css .hexcolor {
+    color: #3e999f;
+}
+.post-content pre .function,
+.post-content pre .python .decorator,
+.post-content pre .python .title,
+.post-content pre .ruby .function .title,
+.post-content pre .ruby .title .keyword,
+.post-content pre .perl .sub,
+.post-content pre .javascript .title,
+.post-content pre .coffeescript .title {
+    color: #4271ae;
+}
+.post-content pre .keyword,
+.post-content pre .javascript .function {
+    color: #8959a8;
+}
