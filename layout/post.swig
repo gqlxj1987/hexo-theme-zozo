@@ -26,3 +26,30 @@
         </div>
     </div>
 </div>
+{% if theme.comment.type == 'valine' %}
+<div id="vcomments"></div>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: '{{ theme.comment.valine.appid }}',
+        appKey: '{{ theme.comment.valine.appkey }}',
+        placeholder: '{{ theme.comment.valine.placeholder }}',
+        avatar: '{{ theme.comment.valine.avatar }}',
+        recordIP: true,
+        visitor: true
+    })
+</script>
+{% elseif theme.comment.type == 'gittalk' %}
+<div id="gitalk-container"></div>
+<script>
+new Gitalk({
+  clientID: '{{ theme.comment.gittalk.clientid }}',
+  clientSecret: '{{ theme.comment.gittalk.clientsecret }}',
+  repo: '{{ theme.comment.gittalk.repo }}',
+  owner: '{{ theme.comment.gittalk.owner }}',
+  admin: '{{ theme.comment.gittalk.admin }}',
+  id: location.pathname,
+  distractionFreeMode: false
+}).render('gitalk-container')
+</script>
+{% endif %}

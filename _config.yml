@@ -32,3 +32,18 @@ socials:
   # instagram: 
   # youtube: 
   email: myfaith0725@gmail.com
+
+# Comment, valine gittalk
+comment:
+  type: gittalk
+  valine:
+    appid: # appid
+    appkey: # appkey
+    placeholder: 留下你的评论吧
+    avatar: robohash
+  gittalk:
+    clientid: # client id
+    clientsecret: # client secret
+    repo: # https://blog.myfaith.io
+    owner: # MyFaith
+    admin: # MyFaith
