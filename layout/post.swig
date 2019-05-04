@@ -47,8 +47,8 @@ new Gitalk({
   clientSecret: '{{ theme.comment.gitalk.clientsecret }}',
   repo: '{{ theme.comment.gitalk.repo }}',
   owner: '{{ theme.comment.gitalk.owner }}',
-  admin: '{{ theme.comment.gitalk.admin }}',
-  id: location.pathname,
+  admin: ['{{ theme.comment.gitalk.admin }}'],
+  id: decodeURI(location.pathname),
   distractionFreeMode: false
 }).render('gitalk-container')
 </script>

@@ -44,6 +44,6 @@ comment:
   gitalk:
     clientid: # client id
     clientsecret: # client secret
-    repo: # https://github.com/MyFaith/myfaith.github.io
+    repo: # myfaith.github.io
     owner: # MyFaith
     admin: # MyFaith
